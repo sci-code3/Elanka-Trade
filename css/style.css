@@ -551,6 +551,155 @@ a:focus {
 /*end contact section */
 
 
+/*Success section */
+
+.back_success{
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  margin: 2.5%;
+  padding: 0 0 2%;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.back_success .rightside{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+
+.back_success .rightside img{
+  width: 50%;
+}
+
+.back_success .rightside p{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+
+.back_success .leftside{
+  width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+
+.back_success .leftside img{
+  width: 50%;
+}
+
+.back_success .leftside p{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.upside{
+width: 100%;
+text-align: center;
+font-size: 2rem;
+font-weight: bold;
+}
+
+.downside{
+  width: 100%;
+  display: flex;
+  justify-content: center
+  }
+
+  .downside button {
+    width: 30%;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px 55px;
+    background-color: #cf382c;
+    color: #ffffff;
+    border-radius: 15px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid #cf382c;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.downside button a {
+  color: #ffffff;
+
+}
+  
+  .downside button:hover {
+    background-color: transparent;
+    color: #ffffff;
+    background-color: #004775;
+    border: 1px solid #004775;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      transform: translatex(500%);
+      opacity: 0;
+      -webkit-transform: translatex(500%);
+      -moz-transform: translatex(500%);
+      -ms-transform: translatex(500%);
+      -o-transform: translatex(500%);
+}
+    100% {
+      transform: translatex(0%);
+      opacity: 1;
+      -webkit-transform: translatex(0%);
+      -moz-transform: translatex(0%);
+      -ms-transform: translatex(0%);
+      -o-transform: translatex(0%);
+}
+  }
+  
+  .fadeInUp-animation {
+    animation: fadeInUp 2s;
+    -webkit-animation: fadeInUp 2s;
+}
+
+@keyframes fadeInd {
+  0% {
+    transform: translateX(0%);
+    opacity: 0;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+}
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+}
+}
+
+.fadeInd-animation {
+  animation: 2s fadeInd;
+  -webkit-animation: 2s fadeInd;
+}
+
+
+/*end Success section */
+
 
 
 /* World Map Area css
